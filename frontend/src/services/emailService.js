@@ -2,7 +2,7 @@ const API_URL = 'https://dise-eccomerce-back.onrender.com/api';
 
 export const sendOrder = async (orderData) => {
   try {
-    console.log("Datos recibidos:", req.body); // Ver qué datos llegan
+    
     const response = await fetch(`${API_URL}/send-order`, {
       method: 'POST',
       headers: {
