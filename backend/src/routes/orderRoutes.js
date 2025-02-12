@@ -51,6 +51,7 @@ router.post('/send-order', async (req, res) => {
 
   try {
     await transporter.sendMail(mailOptions);
+    console.log("📧 Email enviado con éxito!");
     res.status(200).json({ 
       success: true, 
       message: 'Orden enviada exitosamente' 
