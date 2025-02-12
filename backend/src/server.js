@@ -7,7 +7,12 @@ require('dotenv').config();
 const app = express();
 
 // Middleware
-app.use(cors());
+const corsOptions = {
+  origin: '*', // Permite todas las solicitudes (ajústalo según necesites)
+  methods: 'GET,POST',
+  allowedHeaders: 'Content-Type,Authorization'
+};
+app.use(cors(corsOptions));
 app.use(express.json());
 
 // Routes
