@@ -3,6 +3,7 @@ const router = express.Router();
 const transporter = require('../config/emailConfig');
 
 router.post('/send-order', async (req, res) => {
+  console.log(req.body)
   const { customerData, orderItems } = req.body;
 
   const orderTotal = orderItems.reduce((total, item) => total + item.price, 0);
