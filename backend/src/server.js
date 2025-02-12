@@ -15,7 +15,7 @@ app.use('/api', orderRoutes);
 
 // Verificación de dist
 const fs = require('fs');
-const distPath = path.join(__dirname, 'frontend', 'dist');
+const distPath = path.join(__dirname, '../../frontend/dist');
 console.log("Verificando si dist existe en:", distPath);
 console.log("Archivos en dist:", fs.existsSync(distPath) ? fs.readdirSync(distPath) : "No existe");
 
