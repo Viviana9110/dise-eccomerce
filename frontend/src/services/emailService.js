@@ -1,4 +1,4 @@
-const API_URL = 'https://dise-eccomerce-back.onrender.com/api';
+const API_URL = 'http://localhost:3001/api';
 
 export const sendOrder = async (orderData) => {
   try {
