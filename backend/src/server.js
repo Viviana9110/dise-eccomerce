@@ -18,7 +18,6 @@ app.use('/api', orderRoutes);
 
 //Codigo para entorno de produccion
 
-const path = require('path');
 const fs = require('fs');
 const distPath = path.join(__dirname, 'frontend', 'dist');
 console.log("Verificando si dist existe en:", distPath);
