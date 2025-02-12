@@ -8,6 +8,7 @@ const app = express();
 
 const dirname = path.resolve();
 
+
 // Middleware
 app.use(cors());
 app.use(express.json());
@@ -16,6 +17,12 @@ app.use(express.json());
 app.use('/api', orderRoutes);
 
 //Codigo para entorno de produccion
+
+const path = require('path');
+const fs = require('fs');
+const distPath = path.join(__dirname, 'frontend', 'dist');
+console.log("Verificando si dist existe en:", distPath);
+console.log("Archivos en dist:", fs.existsSync(distPath) ? fs.readdirSync(distPath) : "No existe");
 
 if (process.env.NODE_ENV === "production") {
 	app.use(express.static(path.join(__dirname, '../frontend/dist')));
