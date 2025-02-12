@@ -15,16 +15,16 @@ app.use('/api', orderRoutes);
 
 // Verificación de dist
 const fs = require('fs');
-const distPath = path.join(__dirname, '../../frontend/dist');
-console.log("Verificando si dist existe en:", distPath);
-console.log("Archivos en dist:", fs.existsSync(distPath) ? fs.readdirSync(distPath) : "No existe");
 
 // Configuración para producción
 if (process.env.NODE_ENV === "production") {
-	app.use(express.static(path.join(__dirname, '../frontend/dist')));
+  const distPath = path.join(__dirname, '../../frontend/dist');
+console.log("Verificando si dist existe en:", distPath);
+console.log("Archivos en dist:", fs.existsSync(distPath) ? fs.readdirSync(distPath) : "No existe");
 
+app.use(express.static(distPath));
 	app.get("*", (req, res) => {
-    res.sendFile(path.resolve(__dirname, '../frontend/dist/index.html'));
+    res.sendFile(path.resolve(__dirname, 'index.html'));
   });
 }
 
