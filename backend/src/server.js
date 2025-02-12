@@ -6,9 +6,6 @@ require('dotenv').config();
 
 const app = express();
 
-const dirname = path.resolve();
-
-
 // Middleware
 app.use(cors());
 app.use(express.json());
@@ -16,19 +13,18 @@ app.use(express.json());
 // Routes
 app.use('/api', orderRoutes);
 
-//Codigo para entorno de produccion
-
+// Verificación de dist
 const fs = require('fs');
 const distPath = path.join(__dirname, 'frontend', 'dist');
 console.log("Verificando si dist existe en:", distPath);
 console.log("Archivos en dist:", fs.existsSync(distPath) ? fs.readdirSync(distPath) : "No existe");
 
+// Configuración para producción
 if (process.env.NODE_ENV === "production") {
-	app.use(express.static(path.join(__dirname, '../frontend/dist')));
-
+	app.use(express.static(path.join(__dirname, 'frontend', 'dist')));
 
 	app.get("*", (req, res) => {
-		res.sendFile(path.resolve(__dirname, '../frontend/dist'));
+		res.sendFile(path.join(__dirname, 'frontend', 'dist', 'index.html'));
 	});
 }
 
@@ -45,4 +41,4 @@ const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en el puerto ${PORT}`);
-}); 
+});
