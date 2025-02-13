@@ -60,17 +60,32 @@ router.post('/send-order', async (req, res) => {
     console.log("🚀 Enviando email a:", process.env.STORE_EMAIL);
     await transporter.sendMail(mailOptions);
     console.log("📧 Email enviado con éxito!");
-    return res.status(200).json({ 
+    const responseData = { 
       success: true, 
       message: 'Orden enviada exitosamente' 
-    });
+    };
+    console.log("📨 Respuesta enviada al frontend:", responseData);
+  return res.status(200).json(responseData);
+
+    // return res.status(200).json({ 
+    //   success: true, 
+    //   message: 'Orden enviada exitosamente' 
+    // });
   } catch (error) {
     console.error('Error al enviar el correo:', error);
-    res.status(500).json({ 
+    const errorResponse = { 
       success: false, 
       message: 'Error al procesar la orden', 
       error: error.message 
-    });
+    };
+    console.log("⚠️ Respuesta de error enviada al frontend:", errorResponse);
+  return res.status(500).json(errorResponse);
+
+    // res.status(500).json({ 
+    //   success: false, 
+    //   message: 'Error al procesar la orden', 
+    //   error: error.message 
+    // });
   }
 });
 
