@@ -9,7 +9,7 @@ const app = express();
 // Middleware
 
 app.use(cors({
-  origin: 'https://dise-eccomerce.onrender.com/', // Reemplaza con la URL de tu frontend
+  origin: 'https://dise-eccomerce.onrender.com', // Reemplaza con la URL de tu frontend
   credentials: true
 }));
 app.use(express.json());
