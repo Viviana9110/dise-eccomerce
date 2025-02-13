@@ -14,7 +14,7 @@ function CheckoutForm() {
     e.preventDefault();
     
     try {
-      const response = await fetch('https://dise-eccomerce.onrender.com/api/send-order', {
+      const response = await fetch('https://dise-eccomerceback.onrender.com/api/send-order', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
