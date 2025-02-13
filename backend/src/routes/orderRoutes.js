@@ -3,7 +3,7 @@ const router = express.Router();
 const transporter = require('../config/emailConfig');
 
 router.post('/send-order', async (req, res) => {
-  
+  console.log("📩 Recibiendo orden:", req.body); 
   const { customerData, orderItems } = req.body;
 
   const orderTotal = orderItems.reduce((total, item) => total + item.price, 0);
@@ -50,6 +50,7 @@ router.post('/send-order', async (req, res) => {
   };
 
   try {
+    console.log("🚀 Enviando email a:", process.env.STORE_EMAIL);
     await transporter.sendMail(mailOptions);
     console.log("📧 Email enviado con éxito!");
     res.status(200).json({ 
