@@ -82,5 +82,8 @@ router.post('/send-order', async (req, res) => {
   }
 });
 
+router.get('/test', (req, res) => {
+  res.status(200).json({ message: '¡Ruta de prueba funcionando!' });
+});
 
 module.exports = router;
