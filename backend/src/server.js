@@ -40,6 +40,7 @@ app.use((err, req, res, next) => {
     success: false, 
     message: 'Error interno del servidor' 
   });
+  
 });
 
 const PORT = process.env.PORT || 3001;
