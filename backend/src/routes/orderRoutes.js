@@ -68,7 +68,7 @@ router.post('/send-order', async (req, res) => {
       message: 'Orden enviada exitosamente' 
     };
     console.log("📨 Respuesta enviada al frontend:", responseData);
-  return res.status(200).json(responseData);
+    return res.status(200).json(responseData);
 
   } catch (error) {
     console.error('Error al enviar el correo:', error);
@@ -78,9 +78,13 @@ router.post('/send-order', async (req, res) => {
       error: error.message 
     };
     console.log("⚠️ Respuesta de error enviada al frontend:", errorResponse);
-  return res.status(500).json(errorResponse);
-
+    return res.status(500).json(errorResponse);
   }
+});
+
+// Ruta de prueba para verificar si la API está funcionando
+router.get('/test', (req, res) => {
+  res.json({ success: true, message: "API funcionando correctamente 🚀" });
 });
 
 module.exports = router;
