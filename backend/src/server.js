@@ -22,9 +22,8 @@ const fs = require('fs');
 
 // Configuración para producción
 if (process.env.NODE_ENV === "production") {
-  const distPath = path.join(__dirname, '../../../frontend/dist');
-console.log("Verificando si dist existe en:", distPath);
-console.log("Archivos en dist:", fs.existsSync(distPath) ? fs.readdirSync(distPath) : "No existe");
+  console.log("Modo producción: solo API activa, sin frontend local.");
+}
 
 // app.use(express.static(distPath));
 // 	app.get("*", (req, res) => {
