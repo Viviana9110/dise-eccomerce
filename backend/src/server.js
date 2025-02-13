@@ -1,4 +1,4 @@
-const path = require('path');
+
 const express = require('express');
 const cors = require('cors');
 const orderRoutes = require('./routes/orderRoutes');
@@ -23,12 +23,6 @@ const fs = require('fs');
 // Configuración para producción
 if (process.env.NODE_ENV === "production") {
   console.log("Modo producción: solo API activa, sin frontend local.");
-}
-
-// app.use(express.static(distPath));
-// 	app.get("*", (req, res) => {
-//     res.sendFile(path.resolve(distPath, 'index.html'));
-//   });
 }
 
 // Error handling
