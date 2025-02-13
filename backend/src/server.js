@@ -39,6 +39,9 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 3001;
 
+app.get('/api/test', (req, res) => {
+  res.json({ message: "¡Ruta de prueba funcionando!" });
+});
 
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en el puerto ${PORT}`);
