@@ -5,13 +5,15 @@ const transporter = require('../config/emailConfig');
 router.post('/send-order', async (req, res) => {
   
   console.log("📩 Recibiendo orden:", req.body); 
+  
+  const { customerData, orderItems } = req.body;
+
   if (!customerData || !orderItems || orderItems.length === 0) {
     return res.status(400).json({
       success: false,
       message: "Datos de orden incompletos o inválidos"
     });
   }
-  const { customerData, orderItems } = req.body;
 
   const orderTotal = orderItems.reduce((total, item) => total + item.price, 0);
   
@@ -60,6 +62,7 @@ router.post('/send-order', async (req, res) => {
     console.log("🚀 Enviando email a:", process.env.STORE_EMAIL);
     await transporter.sendMail(mailOptions);
     console.log("📧 Email enviado con éxito!");
+
     const responseData = { 
       success: true, 
       message: 'Orden enviada exitosamente' 
@@ -67,10 +70,6 @@ router.post('/send-order', async (req, res) => {
     console.log("📨 Respuesta enviada al frontend:", responseData);
   return res.status(200).json(responseData);
 
-    // return res.status(200).json({ 
-    //   success: true, 
-    //   message: 'Orden enviada exitosamente' 
-    // });
   } catch (error) {
     console.error('Error al enviar el correo:', error);
     const errorResponse = { 
@@ -81,11 +80,6 @@ router.post('/send-order', async (req, res) => {
     console.log("⚠️ Respuesta de error enviada al frontend:", errorResponse);
   return res.status(500).json(errorResponse);
 
-    // res.status(500).json({ 
-    //   success: false, 
-    //   message: 'Error al procesar la orden', 
-    //   error: error.message 
-    // });
   }
 });
 
