@@ -82,9 +82,5 @@ router.post('/send-order', async (req, res) => {
   }
 });
 
-// Ruta de prueba para verificar si la API está funcionando
-router.get('/test', (req, res) => {
-  res.json({ success: true, message: "API funcionando correctamente 🚀" });
-});
 
 module.exports = router;
