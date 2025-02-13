@@ -7,12 +7,11 @@ require('dotenv').config();
 const app = express();
 
 // Middleware
-const corsOptions = {
-  origin: '*', // Permite todas las solicitudes (ajústalo según necesites)
-  methods: 'GET,POST',
-  allowedHeaders: 'Content-Type,Authorization'
-};
-app.use(cors(corsOptions));
+
+app.use(cors({
+  origin: 'https://dise-eccomerce.onrender.com/', // Reemplaza con la URL de tu frontend
+  credentials: true
+}));
 app.use(express.json());
 
 // Routes
