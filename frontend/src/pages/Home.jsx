@@ -16,7 +16,7 @@ function Home() {
       <header className="flex flex-col md:flex-row items-center justify-between p-8 bg-white">
         <div className="md:w-1/2 space-y-4">
           <h1 className="text-4xl font-bold text-gray-800">
-          Bienvenidos a Productos Colombianos
+          Bienvenidos a productos de mi tierra
           </h1>
           <p className="text-gray-600">
           Descubre los mejores snacks, bebidas y dulces directamente desde Colombia.
@@ -28,9 +28,9 @@ function Home() {
         </div>
         <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
           <img
-            src="../public/images/fondo.png"
-            alt="Fried Chicken"
-            className="rounded-xl shadow-lg"
+            src="../public/images/fondo.jpg"
+            alt="Mi tierra"
+            className="rounded-xl shadow-lg w-80 h-80"
           />
         </div>
       </header>
@@ -42,12 +42,12 @@ function Home() {
           {[
             {
               name: "Cocosette",
-              price: "$12.99",
+              price: "$0.75",
               img: "../public/images/cocosette.jpg",
             },
             {
               name: "Chocolatina Jumbo mini caja",
-              price: "$22.99",
+              price: "$9.27",
               img: "../public/images/chocolatinajumbomini.jpg",
             },
             {

@@ -18,7 +18,7 @@ function Navbar() {
       <nav className="flex justify-between items-center p-4 bg-white shadow-md">
         <div className="text-2xl font-bold text-cyan-900">
         <Link to="/" className="text-xl font-bold">
-              Dise Distribution
+              Mi tierra products
             </Link>
             </div>
           <ul className="flex space-x-6">
