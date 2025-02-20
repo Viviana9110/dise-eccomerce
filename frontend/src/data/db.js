@@ -10,14 +10,14 @@ export const products = {
       {
         id: 2,
         name: "Bonyourt",
-        price: 2000,
+        price: 1.85,
         image: "/images/bonyurt.jpg",
         category: "snacks"
       },
       {
         id: 3,
         name: "Cheetos Horneados",
-        price: 2000,
+        price: 2.20,
         image: "/images/cheetos.jpg",
         category: "snacks"
       },{
@@ -29,7 +29,7 @@ export const products = {
       },{
         id: 5,
         name: "Cocosette",
-        price: 2000,
+        price: 0.75,
         image: "/images/cocosette.jpg",
         category: "snacks"
       },{
@@ -40,8 +40,8 @@ export const products = {
         category: "snacks"
       },{
         id: 7,
-        name: "Galleta Cuca",
-        price: 2000,
+        name: "Galleta Cuca x 6 unidades",
+        price: 4.32,
         image: "/images/galletacuca.jpg",
         category: "snacks"
       },{
@@ -59,13 +59,13 @@ export const products = {
       },{
         id: 10,
         name: "Manimoto limon",
-        price: 2000,
+        price: 0.75,
         image: "/images/manimotolimon.jpg",
         category: "snacks"
       },{
         id: 11,
         name: "Manimoto",
-        price: 2000,
+        price: 0.75,
         image: "/images/manimoto.jpg",
         category: "snacks"
       },{
@@ -94,7 +94,7 @@ export const products = {
         id: 15,
         name: 'papas margarita limon',
         image: "/images/papasmargaritalimon.jpg",
-        price: 379,
+        price: 1.25,
         category: "snacks"
 
     },
@@ -110,7 +110,7 @@ export const products = {
         id: 17,
         name: 'chocorramo',
         image: "/images/ramochocorramo.jpg",
-        price: 379,
+        price: 8.29,
         category: "snacks"
 
     },
@@ -118,7 +118,7 @@ export const products = {
         id: 18,
         name: 'rosquillas caleñas',
         image: "/images/roquillascalenas.jpg",
-        price: 379,
+        price: 1.39,
         category: "snacks"
 
     },
@@ -142,7 +142,7 @@ export const products = {
         id: 21,
         name: 'trocipollo',
         image: "/images/trocipollo.jpg",
-        price: 379,
+        price: 1.20,
         category: "snacks"
 
     },
@@ -158,7 +158,7 @@ export const products = {
         id: 23,
         name: 'yupi palomitas caramelo',
         image: "/images/yupipalomitascaramelo.jpg",
-        price: 379,
+        price: 1.30,
         category: "snacks"
 
     },
@@ -166,7 +166,7 @@ export const products = {
         id: 24,
         name: 'yupi tozineta fred',
         image: "/images/yupitozinetafred.jpg",
-        price: 379,
+        price: 2.43,
         category: "snacks"
 
     },
@@ -174,7 +174,7 @@ export const products = {
         id: 25,
         name: 'yupi tozineta fred x 8',
         image: "/images/yupitozinetafredx8.jpg",
-        price: 379,
+        price: 7.78,
         category: "snacks"
 
     },
@@ -220,9 +220,9 @@ export const products = {
     },
     {
         id: 31,
-        name: 'Galletas milo sandwich',
+        name: 'Galletas milo sandwich x 12',
         image: "/images/galletasmilo.jpg",
-        price: 379,
+        price: 4.01,
         category: "snacks"
 
     },
@@ -239,16 +239,16 @@ export const products = {
     candies: [
       {
         id: 33,
-        name: 'Dulceria Surtida',
-        image: '/images/dulceriasurtida.jpg',
-        price: 299,
-        category:'candies'
+        name: '',
+        image: '',
+        price: '',
+        category:''
     },
     {
         id: 34,
         name: 'Arequipe Alpina x 250g',
         image: '/images/arequipealpina250.jpg',
-        price: 349,
+        price: 3.24,
         category: "candies"
     },
     {
@@ -261,9 +261,9 @@ export const products = {
     },
     {
         id: 36,
-        name: 'arequipito alpina x 6',
+        name: 'Arequipe Alpina x 6 unidades',
         image: '/images/arequipito6x50g.jpg',
-        price: 299,
+        price: 4.50,
         category: "candies"
 
     },
@@ -349,9 +349,9 @@ export const products = {
     },
     {
         id: 47,
-        name: 'chocolatina jet bolsa x 12 unidades',
+        name: 'chocolatina jet bolsa x 10 unidades',
         image: '/images/chocolatinajetbolsax12.jpg',
-        price: 379,
+        price: 4.68,
         category: "candies"
 
     },
@@ -367,7 +367,7 @@ export const products = {
         id: 49,
         name: 'chocolatina jet caja x 24 unidades',
         image: '/images/chocolatinajetcajax24.jpg',
-        price: 379,
+        price: 8.65,
         category: "candies"
 
     },
@@ -383,7 +383,7 @@ export const products = {
         id: 51,
         name: 'chocolatina jumbo jet mani 12 unidades',
         image: '/images/chocolatinajumbojetmani12.jpg',
-        price: 379,
+        price: 9.27,
         category: "candies"
 
     },
@@ -415,7 +415,7 @@ export const products = {
         id: 55,
         name: 'chokis caja x 16 unidades',
         image: '/images/chokiscajax16.jpg',
-        price: 379,
+        price: 16.48,
         category: "candies"
 
     },
@@ -437,9 +437,9 @@ export const products = {
     },
     {
         id: 58,
-        name: 'quipitos caja x 20 unidades',
+        name: 'quipitos caja x 24 unidades',
         image: '/images/quipitoscajax20.jpg',
-        price: 379,
+        price: 7.25,
         category: "candies"
 
     },
@@ -481,14 +481,14 @@ export const products = {
         id: 63,
         name: 'avena alpina canela 1 l',
         image: '/images/avenaalpinacanila1l.jpg',
-        price: 349,
+        price: 4.26,
         category: 'beverages'
     },
     {
         id: 64,
         name: 'avena alpina original 1 L',
         image: '/images/avenaalpinaoriginal1L.jpg',
-        price: 329,
+        price: 4.26,
         category: 'beverages'
     },
     {
@@ -509,7 +509,7 @@ export const products = {
         id: 67,
         name: 'avena tradicional',
         image: '/images/avenatradicional.jpg',
-        price: 329,
+        price: 6.84,
         category: 'beverages'
     },
     {
@@ -572,7 +572,7 @@ export const products = {
         id: 76,
         name: 'jugo hit tetra pack',
         image: '/images/jugohittetrapack.jpg',
-        price: 379,
+        price: 6.49,
         category: 'beverages'
     },
     {
@@ -621,7 +621,7 @@ export const products = {
         id: 83,
         name: 'postobon bretaña botella 12oz caja x 24 unidades',
         image: '/images/postobonbretañabotella12ozcajax24.jpg',
-        price: 379,
+        price: 1.89,
         category: 'beverages'
     },
     {
@@ -640,9 +640,9 @@ export const products = {
     },
     {
         id: 86,
-        name: 'postobon colombiana manzana lata caja x 24 unidades',
+        name: 'postobon lata',
         image: '/images/postobonmanazacolombianalatacajax24.jpg',
-        price: 379,
+        price: 1.30,
         category: 'beverages'
     },
     {
