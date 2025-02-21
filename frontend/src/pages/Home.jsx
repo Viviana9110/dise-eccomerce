@@ -28,7 +28,7 @@ function Home() {
         </div>
         <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
           <img
-            src="public/images/fondo.jpg"
+            src="/images/fondo.jpg"
             alt="Mi tierra"
             className="rounded-xl shadow-lg w-80 h-80"
           />
@@ -43,22 +43,22 @@ function Home() {
             {
               name: "Cocosette",
               price: "$0.75",
-              img: "../public/images/cocosette.jpg",
+              img: "/images/cocosette.jpg",
             },
             {
               name: "Chocolatina Jumbo mini caja",
               price: "$9.27",
-              img: "../public/images/chocolatinajumbomini.jpg",
+              img: "/images/chocolatinajumbomini.jpg",
             },
             {
               name: "Galletas Festiva",
               price: "$14.99",
-              img: "../public/images/galletafestival.jpg",
+              img: "/images/galletafestival.jpg",
             },
             {
               name: "Ponymalta lata",
               price: "$3.75",
-              img: "../public/images/ponymaltalata.jpg",
+              img: "/images/ponymaltalata.jpg",
             },
           ].map((dish, index) => (
             <div
