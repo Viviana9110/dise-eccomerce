@@ -176,7 +176,7 @@ export const products = {
     {
         id: 25,
         name: 'Ponque ramo tradicional',
-        image: "/images/",
+        image: "/images/ponqueramotradicional.jpg",
         price: 4.55,
         category: "snacks"
 
@@ -184,7 +184,7 @@ export const products = {
     {
         id: 26,
         name: 'Ramo Gala Surtido',
-        image: "/images/",
+        image: "/images/ramogalasurtido.jpg",
         price: 7.78,
         category: "snacks"
 
@@ -192,7 +192,7 @@ export const products = {
     {
         id: 27,
         name: 'Ramo Tostaco bolsa x 12 unidades',
-        image: "/images/",
+        image: "/images/ramotostacopicante.jpg",
         price: 8.65,
         category: "snacks"
 
@@ -200,7 +200,7 @@ export const products = {
     {
         id: 28,
         name: 'Ramo Tostaco',
-        image: "/images/",
+        image: "/images/ramotostaco.jpg",
         price: 1.0,
         category: "snacks"
 
@@ -225,7 +225,7 @@ export const products = {
     {
         id: 31,
         name: 'torta negra 720gr',
-        image: "/images/tortanegraenvinada.jpg",
+        image: "/images/tortanegra.png",
         price: 10.01,
         category: "snacks"
 
@@ -233,7 +233,7 @@ export const products = {
     {
         id: 32,
         name: 'Chocolate Luker 250gr',
-        image: "/images/",
+        image: "/images/chocolateluker.jpg",
         price: 6.72,
         category: "snacks"
 
@@ -241,7 +241,7 @@ export const products = {
     {
         id: 33,
         name: 'Leche Klim 360gr',
-        image: "/images/",
+        image: "/images/lecheklim.jpeg",
         price: 11.0,
         category: "snacks"
 
@@ -249,7 +249,7 @@ export const products = {
     {
         id: 34,
         name: 'Frutiño x 20 unidades',
-        image: "/images/",
+        image: "/images/frutiño.png",
         price: 9.01,
         category: "snacks"
 
@@ -257,7 +257,7 @@ export const products = {
     {
         id: 35,
         name: 'trocipollo x 8 unidades',
-        image: "/images/trocipollo.jpg",
+        image: "/images/trocipollo8.jpg",
         price: 8.37,
         category: "snacks"
 
@@ -273,7 +273,7 @@ export const products = {
     {
         id: 37,
         name: 'yupi horneados',
-        image: '/images/',
+        image: '/images/yupihorneados.jpg',
         price: 2.20,
         category: "snacks"
 
@@ -306,7 +306,7 @@ export const products = {
     {
         id: 41,
         name: 'Bocadillo veleño',
-        image: "/images/",
+        image: "/images/bocadilloveleño.jpg",
         price: 4.50,
         category: "snacks"
 
@@ -323,7 +323,7 @@ export const products = {
     {
         id: 43,
         name: 'Harina Pan Amarilla 1Kg',
-        image: "/images/",
+        image: "/images/harinapanamarilla.jpg",
         price: 1.68,
         category: "snacks"
 
@@ -331,7 +331,7 @@ export const products = {
     {
         id: 44,
         name: 'Harina Pan Blanca 1Kg',
-        image: "/images/",
+        image: "/images/harinapanamarilla.jpg",
         price: 1.68,
         category: "snacks"
 
@@ -339,7 +339,7 @@ export const products = {
     {
         id: 45,
         name: 'Harina Pan Dulce 1Kg',
-        image: "/images/",
+        image: "/images/harinapandulce.jpg",
         price: 4.61,
         category: "snacks"
 
