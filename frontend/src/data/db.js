@@ -18,21 +18,21 @@ export const products = {
         id: 3,
         name: "Yogo Yogo",
         price: 1.31,
-        image: "/images/",
+        image: "/images/yogoyogo.jpg",
         category: "snacks"
       },
       {
         id: 4,
         name: "Milo tarro 400gr",
         price: 7.99,
-        image: "/images/",
+        image: "/images/milotarro400.jpg",
         category: "snacks"
       },
       {
         id: 5,
         name: "Milo Bolsa 440gr",
         price: 7.60,
-        image: "/images/",
+        image: "/images/milobolsa.jpg",
         category: "snacks"
       },
       {
@@ -45,7 +45,7 @@ export const products = {
         id: 7,
         name: "Choclitos Familiar",
         price: 3.28,
-        image: "/images/choclitos.jpg",
+        image: "/images/choclitosfamiliar.png",
         category: "snacks"
       },
       {
@@ -65,7 +65,7 @@ export const products = {
         id: 10,
         name: "Cocosette caja x 8 unidades",
         price: 5.20,
-        image: "/images/cocosette.jpg",
+        image: "/images/cocosetecaja.jpeg",
         category: "snacks"
       },
       {
