@@ -347,7 +347,7 @@ export const products = {
     {
         id: 46,
         name: 'Maizena Buñuelos',
-        image: "/images/",
+        image: "/images/maizenabuñuelos.jpg",
         price: 3.56,
         category: "snacks"
 
@@ -355,7 +355,7 @@ export const products = {
     {
         id: 47,
         name: 'Maizena Natilla Regular',
-        image: "/images/",
+        image: "/images/maizenanatilla.jpeg",
         price: 3.56,
         category: "snacks"
 
@@ -363,7 +363,7 @@ export const products = {
     {
         id: 48,
         name: 'Salsa Fruco Carne',
-        image: "/images/",
+        image: "/images/salsafrucocarne.jpg",
         price: 3.30,
         category: "snacks"
 
@@ -371,7 +371,7 @@ export const products = {
     {
         id: 49,
         name: 'Salsa China Fruco',
-        image: "/images/",
+        image: "/images/salsachinafruco.jpg",
         price: 2.64,
         category: "snacks"
 
@@ -379,7 +379,7 @@ export const products = {
     {
         id: 50,
         name: 'Salsa Tomate Fruco',
-        image: "/images/",
+        image: "/images/salsatomatefruco.jpeg",
         price: 3.50,
         category: "snacks"
 
@@ -387,7 +387,7 @@ export const products = {
     {
         id: 51,
         name: 'Salsa Inglesa Fruco',
-        image: "/images/",
+        image: "/images/salsainglesafruco.jpg",
         price: 3.50,
         category: "snacks"
 
@@ -395,7 +395,7 @@ export const products = {
     {
         id: 52,
         name: 'Salsa Rosada Doypack',
-        image: "/images/",
+        image: "/images/salsarosadadoypack.jpg",
         price: 5.88,
         category: "snacks"
 
@@ -403,7 +403,7 @@ export const products = {
     {
         id: 53,
         name: 'Salsa Soya Fruco',
-        image: "/images/",
+        image: "/images/salsasoyafruco.jpg",
         price: 2.56,
         category: "snacks"
 
@@ -411,7 +411,7 @@ export const products = {
     {
         id: 54,
         name: 'Salsa Negra Fruco',
-        image: "/images/",
+        image: "/images/salsanegrafruco.png",
         price: 2.58,
         category: "snacks"
 
