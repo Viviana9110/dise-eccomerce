@@ -500,7 +500,7 @@ export const products = {
     {
         id: 65,
         name: 'Maduritos Chips',
-        image: "/images/",
+        image: "/images/maduritoschips.jpg",
         price: 1.40,
         category: "snacks"
 
