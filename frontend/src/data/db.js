@@ -419,7 +419,7 @@ export const products = {
     {
         id: 55,
         name: 'Mermelada de mora La Constancia',
-        image: "/images/",
+        image: "/images/mermeladamora.jpeg",
         price: 4.90,
         category: "snacks"
 
@@ -427,7 +427,7 @@ export const products = {
     {
         id: 56,
         name: 'Mermelada de piña La Constancia',
-        image: "/images/",
+        image: "/images/mermeladapiña.jpeg",
         price: 4.50,
         category: "snacks"
 
@@ -435,7 +435,7 @@ export const products = {
     {
         id: 57,
         name: 'Salsa de piña La Constancia',
-        image: "/images/",
+        image: "/images/salsapiña.jpg",
         price: 5.10,
         category: "snacks"
 
@@ -443,7 +443,7 @@ export const products = {
     {
         id: 58,
         name: 'Salsa de Ciruela La Constancia',
-        image: "/images/",
+        image: "/images/salsaciruela.jpg",
         price: 2.56,
         category: "snacks"
 
@@ -451,7 +451,7 @@ export const products = {
     {
         id: 59,
         name: 'Jabon Axion',
-        image: "/images/",
+        image: "/images/jabonaxion.jpeg",
         price: 3.06,
         category: "snacks"
 
@@ -459,7 +459,7 @@ export const products = {
     {
         id: 60,
         name: 'Jabon Cocco x 3 unidades',
-        image: "/images/",
+        image: "/images/jaboncoco.jpg",
         price: 7.39,
         category: "snacks"
 
@@ -467,7 +467,7 @@ export const products = {
     {
         id: 61,
         name: 'Jabon Rey',
-        image: "/images/",
+        image: "/images/jabonrey.jpg",
         price: 1.47,
         category: "snacks"
 
@@ -475,7 +475,7 @@ export const products = {
     {
         id: 62,
         name: 'Tarrito Rojo x 330gr',
-        image: "/images/",
+        image: "/images/tarritorojo.jpg",
         price: 6.44,
         category: "snacks"
 
@@ -483,7 +483,7 @@ export const products = {
     {
         id: 63,
         name: 'Mazamorra Lata',
-        image: "/images/",
+        image: "/images/mazamorralata.jpg",
         price: 3.72,
         category: "snacks"
 
