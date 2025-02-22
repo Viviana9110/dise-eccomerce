@@ -516,7 +516,7 @@ export const products = {
     {
         id: 67,
         name: 'Platanitos Chips Limon',
-        image: "/images/",
+        image: "/images/platanitoschipslimon.jpg", 
         price: 1.40,
         category: "snacks"
 
@@ -524,7 +524,7 @@ export const products = {
     {
         id: 68,
         name: 'Solteritas x 420gr',
-        image: "/images/",
+        image: "/images/solteritas.jpg",
         price: 6.42,
         category: "snacks"
 
@@ -532,7 +532,7 @@ export const products = {
     {
         id: 69,
         name: 'Frijol su sabor',
-        image: "/images/",
+        image: "/images/frijolsusabor.jpg",
         price: 3.72,
         category: "snacks"
 
@@ -540,7 +540,7 @@ export const products = {
     {
         id: 70,
         name: 'Frijol Cargamanto lata',
-        image: "/images/",
+        image: "/images/frijolcaragantolata.jpg",
         price: 3.48,
         category: "snacks"
 
@@ -548,7 +548,7 @@ export const products = {
     {
         id: 71,
         name: 'Panela x 4 fraccionada',
-        image: "/images/",
+        image: "/images/panelax4.jpg",
         price: 1.81,
         category: "snacks"
 
@@ -556,7 +556,7 @@ export const products = {
     {
         id: 72,
         name: 'Panela x 8 fraccionada',
-        image: "/images/",
+        image: "/images/panelax8.jpeg",
         price: 3.60,
         category: "snacks"
 
@@ -564,7 +564,7 @@ export const products = {
     {
         id: 73,
         name: 'Panela Redonda',
-        image: "/images/",
+        image: "/images/panelaredonda.jpeg",
         price: 1.80,
         category: "snacks"
 
@@ -572,7 +572,7 @@ export const products = {
     {
         id: 74,
         name: 'Emulsión de Scott 330ml',
-        image: "/images/",
+        image: "/images/emulsiondescott.jpg",
         price: 11.50,
         category: "snacks"
 
@@ -580,7 +580,7 @@ export const products = {
     {
         id: 75,
         name: 'Cafe Aguila Roja 500gr',
-        image: "/images/",
+        image: "/images/cafeaguilaroja.jpg",
         price: 7.61,
         category: "snacks"
 
@@ -588,7 +588,7 @@ export const products = {
     {
         id: 76,
         name: 'Salchica Ranchera Tradicional Zenu',
-        image: '/images/',
+        image: '/images/salchicharancheratradicional.jpeg',
         price: 8.41,
         category: "candies"
 
@@ -596,7 +596,7 @@ export const products = {
     {
         id: 77,
         name: 'Salchichon Cervecero Zenu',
-        image: '/images/',
+        image: '/images/salchichoncervecerozenu.jpg',
         price: 6.65,
         category: "candies"
 
