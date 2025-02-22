@@ -540,7 +540,7 @@ export const products = {
     {
         id: 70,
         name: 'Frijol Cargamanto lata',
-        image: "/images/frijolcaragantolata.jpg",
+        image: "/images/frijolcargamantolata.jpg",
         price: 3.48,
         category: "snacks"
 
@@ -596,7 +596,7 @@ export const products = {
     {
         id: 77,
         name: 'Salchichon Cervecero Zenu',
-        image: '/images/salchichoncervecerozenu.jpg',
+        image: '/images/salchichoncervecerozenujpg.jpg',
         price: 6.65,
         category: "candies"
 
