@@ -72,35 +72,35 @@ export const products = {
         id: 11,
         name: "Ducales taco regular",
         price: 2.58,
-        image: "/images/",
+        image: "/images/ducalestacoregular.jpg",
         category: "snacks"
       },
       {
         id: 12,
         name: "Ducales tarro",
         price: 8.29,
-        image: "/images/",
+        image: "/images/ducalestarro.jpg",
         category: "snacks"
       },
       {
         id: 13,
         name: "Saltin Noel x 5 tacos",
         price: 3.90,
-        image: "/images/",
+        image: "/images/saltinnoel5tacos.png",
         category: "snacks"
       },
       {
         id: 14,
         name: "Tostada integral x 21 unidades",
         price: 3.43,
-        image: "/images/",
+        image: "/images/tostadaintegral.jpeg",
         category: "snacks"
       },
       {
         id: 15,
         name: "Tostada La Ginata",
         price: 1.41,
-        image: "/images/",
+        image: "/images/tostadaslaginata.jpg",
         category: "snacks"
       },
       {
@@ -143,7 +143,7 @@ export const products = {
     {
         id: 21,
         name: 'papas margarita limon familiar',
-        image: "/images/papasmargaritalimon.jpg",
+        image: "/images/papasmargaritafamiliarlimon.jpeg",
         price: 3.25,
         category: "snacks"
 
@@ -159,7 +159,7 @@ export const products = {
     {
         id: 23,
         name: 'papas margarita pollo familiar',
-        image: "/images/papasmargaritalimon.jpg",
+        image: "/images/papasmargaritapollofamiliar.jpeg",
         price: 3.25,
         category: "snacks"
 
