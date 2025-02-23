@@ -19,7 +19,7 @@ function Home() {
           Bienvenidos a productos de mi tierra
           </h1>
           <p className="text-gray-600">
-          Descubre los mejores snacks, bebidas y dulces directamente desde Colombia.
+          Por qué sabemos lo difícil que fue emigrar de nuestra tierra, decimos traerte un pedazo de ella; los mejores snacks, bebidas y dulces directamente desde Colombia.
           Sabores auténticos que te transportarán a nuestra tierra.
           </p>
           <button className="bg-cyan-900 text-white px-6 py-3 rounded-lg text-lg">
