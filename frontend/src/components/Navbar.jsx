@@ -32,6 +32,12 @@ function Navbar() {
             <Link to="/candies" className="text-cyan-900 hover:text-cyan-700 font-bold">
               Dulcería
             </Link>
+            <Link to="/candies" className="text-cyan-900 hover:text-cyan-700 font-bold">
+              Conservas
+            </Link>
+            <Link to="/candies" className="text-cyan-900 hover:text-cyan-700 font-bold">
+              Salsas
+            </Link>
           </ul>
           <div className="flex space-x-4">            
               <button onClick={() => setIsCartOpen(true)} className="relative">
