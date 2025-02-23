@@ -651,7 +651,7 @@ export const products = {
     {
         id: 83,
         name: 'Chocolatina Jumbo Mani',
-        image: '/images/',
+        image: '/images/jumbomani.png',
         price: 1.20,
         category: "candies"
 
@@ -659,7 +659,7 @@ export const products = {
     {
         id: 84,
         name: 'Panelita de coco x 6 unidades',
-        image: '/images/',
+        image: '/images/panelitacoco.jpg',
         price: 1.20,
         category: "candies"
 
@@ -684,7 +684,7 @@ export const products = {
     {
         id: 87,
         name: 'Coffe Delight bolsa',
-        image: '/images/',
+        image: '/images/coffeedelight.jpg',
         price: 1.75,
         category: "candies"
 
@@ -692,7 +692,7 @@ export const products = {
     {
         id: 88,
         name: 'Snaky 50gr',
-        image: '/images/',
+        image: '/images/snaky.jpg',
         price: 1.0,
         category: "candies"
 
@@ -716,7 +716,7 @@ export const products = {
     {
         id: 91,
         name: 'Chontaduro en Salmuera',
-        image: '/images/',
+        image: '/images/chontadurosalmuera.jpg',
         price: 5.52,
         category: "candies"
 
@@ -724,7 +724,7 @@ export const products = {
     {
         id: 92,
         name: 'Chontaduro en Almibar',
-        image: '/images/',
+        image: '/images/chontaduroalmibar.jpg',
         price: 5.52,
         category: "candies"
 
@@ -840,7 +840,7 @@ export const products = {
     {
         id: 107,
         name: 'Vive 100',
-        image: '/images/.jpg',
+        image: '/images/vive100.jpg',
         price: 1.89,
         category: 'beverages'
     },
