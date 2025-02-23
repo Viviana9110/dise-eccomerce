@@ -795,7 +795,7 @@ export const products = {
     {
         id: 101,
         name: 'jugo hit botella plastico',
-        image: '/images/.jpg',
+        image: '/images/jugohitbotella.jpg',
         price: 1.55,
         category: 'beverages'
     },
