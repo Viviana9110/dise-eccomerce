@@ -6,7 +6,7 @@ function ProductCard({ product }) {
   const { addToCart } = useCart();
 
   return (
-    <div className="bg-white rounded-lg border border-slate-900 shadow-md p-4">
+    <div className="bg-white rounded-lg shadow-md p-4">
       <img 
         src={product.image} 
         alt={product.name} 
