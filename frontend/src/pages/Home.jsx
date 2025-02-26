@@ -41,24 +41,24 @@ function Home() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {[
             {
-              name: "Cocosette",
-              price: "$0.75",
-              img: "/images/cocosette.jpg",
+              name: "Cafe Aguila Roja",
+              price: "$7.61",
+              img: "/images/cafeaguilaroja.jpg",
             },
             {
-              name: "Chocolatina Jumbo mini caja",
-              price: "$9.27",
-              img: "/images/chocolatinajumbomini.jpg",
+              name: "Postobon Colombiana",
+              price: "$2.99",
+              img: "/images/postoboncolombianabotella12ozcajax24.jpg",
             },
             {
-              name: "Galletas Festiva",
-              price: "$14.99",
-              img: "/images/galletafestival.jpg",
+              name: "Arequipe Alpina",
+              price: "$3.24",
+              img: "/images/arequipealpina250.jpg",
             },
             {
-              name: "Ponymalta lata",
-              price: "$3.75",
-              img: "/images/ponymaltalata.jpg",
+              name: "Milo Bolsa",
+              price: "$7.6",
+              img: "/images/milobolsa.jpg",
             },
           ].map((dish, index) => (
             <div
