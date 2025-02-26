@@ -4,8 +4,11 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Snacks from './pages/Snacks';
 import Candies from './pages/Candies';
-import { CartProvider } from './context/CartContext';
 import Beverages from './pages/Beverages';
+import Preserves from './pages/Preserves';
+import { CartProvider } from './context/CartContext';
+import Dips from './pages/Dips';
+import Aseo from './pages/Aseo';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
               <Route path="/snacks" element={<Snacks />} />
               <Route path="/beverages" element={<Beverages />} />
               <Route path="/candies" element={<Candies />} />
+              <Route path="/preserves" element={<Preserves />} />
+              <Route path="/dips" element={<Dips />} />
+              <Route path="/aseo" element={<Aseo />} />
             </Routes>
           </main>
         </div>

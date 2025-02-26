@@ -13,28 +13,8 @@ export const products = {
         price: 1.85,
         image: "/images/bonyurt.jpg",
         category: "snacks"
-      },
-      {
-        id: 3,
-        name: "Yogo Yogo",
-        price: 1.31,
-        image: "/images/yogoyogo.jpg",
-        category: "snacks"
-      },
-      {
-        id: 4,
-        name: "Milo tarro 400gr",
-        price: 7.99,
-        image: "/images/milotarro400.jpg",
-        category: "snacks"
-      },
-      {
-        id: 5,
-        name: "Milo Bolsa 440gr",
-        price: 7.60,
-        image: "/images/milobolsa.jpg",
-        category: "snacks"
-      },
+      },     
+      
       {
         id: 6,
         name: "Cheetos Horneados",
@@ -151,7 +131,7 @@ export const products = {
     {
         id: 22,
         name: 'papas margarita pollo x 12 unidades',
-        image: "/images/papasmargaritalimon.jpg",
+        image: "/images/papasmargaritapollo.jpg",
         price: 9.37,
         category: "snacks"
 
@@ -230,30 +210,7 @@ export const products = {
         category: "snacks"
 
     },
-    {
-        id: 32,
-        name: 'Chocolate Luker 250gr',
-        image: "/images/chocolateluker.jpg",
-        price: 6.72,
-        category: "snacks"
-
-    },
-    {
-        id: 33,
-        name: 'Leche Klim 360gr',
-        image: "/images/lecheklim.jpeg",
-        price: 11.0,
-        category: "snacks"
-
-    },
-    {
-        id: 34,
-        name: 'Frutiño x 20 unidades',
-        image: "/images/frutiño.png",
-        price: 9.01,
-        category: "snacks"
-
-    },
+    
     {
         id: 35,
         name: 'trocipollo x 8 unidades',
@@ -320,182 +277,6 @@ export const products = {
         category: "snacks"
 
     },
-    {
-        id: 43,
-        name: 'Harina Pan Amarilla 1Kg',
-        image: "/images/harinapanamarilla.jpg",
-        price: 1.68,
-        category: "snacks"
-
-    },
-    {
-        id: 44,
-        name: 'Harina Pan Blanca 1Kg',
-        image: "/images/harinapanamarilla.jpg",
-        price: 1.68,
-        category: "snacks"
-
-    },
-    {
-        id: 45,
-        name: 'Harina Pan Dulce 1Kg',
-        image: "/images/harinapandulce.jpg",
-        price: 4.61,
-        category: "snacks"
-
-    },
-    {
-        id: 46,
-        name: 'Maizena Buñuelos',
-        image: "/images/maizenabuñuelos.jpg",
-        price: 3.56,
-        category: "snacks"
-
-    },
-    {
-        id: 47,
-        name: 'Maizena Natilla Regular',
-        image: "/images/maizenanatilla.jpeg",
-        price: 3.56,
-        category: "snacks"
-
-    },
-    {
-        id: 48,
-        name: 'Salsa Fruco Carne',
-        image: "/images/salsafrucocarne.jpg",
-        price: 3.30,
-        category: "snacks"
-
-    },
-    {
-        id: 49,
-        name: 'Salsa China Fruco',
-        image: "/images/salsachinafruco.jpg",
-        price: 2.64,
-        category: "snacks"
-
-    },
-    {
-        id: 50,
-        name: 'Salsa Tomate Fruco',
-        image: "/images/salsatomatefruco.jpeg",
-        price: 3.50,
-        category: "snacks"
-
-    },
-    {
-        id: 51,
-        name: 'Salsa Inglesa Fruco',
-        image: "/images/salsainglesafruco.jpg",
-        price: 3.50,
-        category: "snacks"
-
-    },
-    {
-        id: 52,
-        name: 'Salsa Rosada Doypack',
-        image: "/images/salsarosadadoypack.jpg",
-        price: 5.88,
-        category: "snacks"
-
-    },
-    {
-        id: 53,
-        name: 'Salsa Soya Fruco',
-        image: "/images/salsasoyafruco.jpg",
-        price: 2.56,
-        category: "snacks"
-
-    },
-    {
-        id: 54,
-        name: 'Salsa Negra Fruco',
-        image: "/images/salsanegrafruco.png",
-        price: 2.58,
-        category: "snacks"
-
-    },
-    {
-        id: 55,
-        name: 'Mermelada de mora La Constancia',
-        image: "/images/mermeladamora.jpeg",
-        price: 4.90,
-        category: "snacks"
-
-    },
-    {
-        id: 56,
-        name: 'Mermelada de piña La Constancia',
-        image: "/images/mermeladapiña.jpeg",
-        price: 4.50,
-        category: "snacks"
-
-    },
-    {
-        id: 57,
-        name: 'Salsa de piña La Constancia',
-        image: "/images/salsapiña.jpg",
-        price: 5.10,
-        category: "snacks"
-
-    },
-    {
-        id: 58,
-        name: 'Salsa de Ciruela La Constancia',
-        image: "/images/salsaciruela.jpg",
-        price: 2.56,
-        category: "snacks"
-
-    },
-    {
-        id: 59,
-        name: 'Jabon Axion',
-        image: "/images/jabonaxion.jpeg",
-        price: 3.06,
-        category: "snacks"
-
-    },
-    {
-        id: 60,
-        name: 'Jabon Cocco x 3 unidades',
-        image: "/images/jaboncoco.jpg",
-        price: 7.39,
-        category: "snacks"
-
-    },
-    {
-        id: 61,
-        name: 'Jabon Rey',
-        image: "/images/jabonrey.jpg",
-        price: 1.47,
-        category: "snacks"
-
-    },
-    {
-        id: 62,
-        name: 'Tarrito Rojo x 330gr',
-        image: "/images/tarritorojo.jpg",
-        price: 6.44,
-        category: "snacks"
-
-    },
-    {
-        id: 63,
-        name: 'Mazamorra Lata',
-        image: "/images/mazamorralata.jpg",
-        price: 3.72,
-        category: "snacks"
-
-    },
-    {
-        id: 64,
-        name: 'Mazamorra Colombiana',
-        image: "/images/",
-        price: 3.42,
-        category: "snacks"
-
-    },
     
     {
         id: 65,
@@ -537,14 +318,7 @@ export const products = {
         category: "snacks"
 
     },
-    {
-        id: 70,
-        name: 'Frijol Cargamanto lata',
-        image: "/images/frijolcargamantolata.jpg",
-        price: 3.48,
-        category: "snacks"
-
-    },
+    
     {
         id: 71,
         name: 'Panela x 4 fraccionada',
@@ -569,14 +343,7 @@ export const products = {
         category: "snacks"
 
     },
-    {
-        id: 74,
-        name: 'Emulsión de Scott 330ml',
-        image: "/images/emulsiondescott.jpg",
-        price: 11.50,
-        category: "snacks"
-
-    },
+   
     {
         id: 75,
         name: 'Cafe Aguila Roja 500gr',
@@ -714,23 +481,6 @@ export const products = {
 
     },
     {
-        id: 91,
-        name: 'Chontaduro en Salmuera',
-        image: '/images/chontadurosalmuera.jpg',
-        price: 5.52,
-        category: "candies"
-
-    },
-    {
-        id: 92,
-        name: 'Chontaduro en Almibar',
-        image: '/images/chontaduroalmibar.jpg',
-        price: 5.52,
-        category: "candies"
-
-    },
-    
-    {
         id: 93,
         name: 'super coco bolsa x 50 unidades',
         image: '/images/supercocobolsax50.jpg',
@@ -740,7 +490,15 @@ export const products = {
     },
     
     ],
+
     beverages: [
+        {
+            id: 3,
+            name: "Yogo Yogo",
+            price: 1.31,
+            image: "/images/yogoyogo.jpg",
+            category: "beverages"
+          },
       {
         id: 94,
         name: 'Avena Alpina pequeña 6 pk',
@@ -844,5 +602,264 @@ export const products = {
         price: 1.89,
         category: 'beverages'
     },
+    ],
+
+    preserves: [
+        {
+            id: 4,
+            name: "Milo tarro 400gr",
+            price: 7.99,
+            image: "/images/milotarro400.jpg",
+            category: "preserves"
+          },
+          {
+            id: 5,
+            name: "Milo Bolsa 440gr",
+            price: 7.60,
+            image: "/images/milobolsa.jpg",
+            category: "preserves"
+          },
+          {
+            id: 32,
+            name: 'Chocolate Luker 250gr',
+            image: "/images/chocolateluker.jpg",
+            price: 6.72,
+            category: "preserves"
+    
+        },
+        {
+            id: 33,
+            name: 'Leche Klim 360gr',
+            image: "/images/lecheklim.jpeg",
+            price: 11.0,
+            category: "preserves"
+    
+        },
+        {
+            id: 34,
+            name: 'Frutiño x 20 unidades',
+            image: "/images/frutiño.png",
+            price: 9.01,
+            category: "preserves"
+    
+        },
+        {
+            id: 43,
+            name: 'Harina Pan Amarilla 1Kg',
+            image: "/images/harinapanamarilla.jpg",
+            price: 1.68,
+            category: "preserves"
+    
+        },
+        {
+            id: 44,
+            name: 'Harina Pan Blanca 1Kg',
+            image: "/images/harinapanamarilla.jpg",
+            price: 1.68,
+            category: "preserves"
+    
+        },
+        {
+            id: 45,
+            name: 'Harina Pan Dulce 1Kg',
+            image: "/images/harinapandulce.jpg",
+            price: 4.61,
+            category: "preserves"
+    
+        },
+        {
+            id: 46,
+            name: 'Maizena Buñuelos',
+            image: "/images/maizenabuñuelos.jpg",
+            price: 3.56,
+            category: "preserves"
+    
+        },
+        {
+            id: 47,
+            name: 'Maizena Natilla Regular',
+            image: "/images/maizenanatilla.jpeg",
+            price: 3.56,
+            category: "preserves"
+    
+        },
+        {
+            id: 62,
+            name: 'Tarrito Rojo x 330gr',
+            image: "/images/tarritorojo.jpg",
+            price: 6.44,
+            category: "preserves"
+    
+        },
+        {
+            id: 63,
+            name: 'Mazamorra Lata',
+            image: "/images/mazamorralata.jpg",
+            price: 3.72,
+            category: "preserves"
+    
+        },
+        {
+            id: 64,
+            name: 'Mazamorra Colombiana',
+            image: "/images/",
+            price: 3.42,
+            category: "preserves"
+    
+        },
+        {
+            id: 70,
+            name: 'Frijol Cargamanto lata',
+            image: "/images/frijolcargamantolata.jpg",
+            price: 3.48,
+            category: "preserves"
+    
+        },
+        {
+            id: 74,
+            name: 'Emulsión de Scott 330ml',
+            image: "/images/emulsiondescott.jpg",
+            price: 11.50,
+            category: "preserves"
+    
+        },
+        {
+            id: 91,
+            name: 'Chontaduro en Salmuera',
+            image: '/images/chontadurosalmuera.jpg',
+            price: 5.52,
+            category: "preserves"
+    
+        },
+        {
+            id: 92,
+            name: 'Chontaduro en Almibar',
+            image: '/images/chontaduroalmibar.jpg',
+            price: 5.52,
+            category: "preserves"
+    
+        },
+        
+        
+
+    ],
+
+    dips: [
+        {
+            id: 48,
+            name: 'Salsa Fruco Carne',
+            image: "/images/salsafrucocarne.jpg",
+            price: 3.30,
+            category: "dips"
+    
+        },
+        {
+            id: 49,
+            name: 'Salsa China Fruco',
+            image: "/images/salsachinafruco.jpg",
+            price: 2.64,
+            category: "dips"
+    
+        },
+        {
+            id: 50,
+            name: 'Salsa Tomate Fruco',
+            image: "/images/salsatomatefruco.jpeg",
+            price: 3.50,
+            category: "dips"
+    
+        },
+        {
+            id: 51,
+            name: 'Salsa Inglesa Fruco',
+            image: "/images/salsainglesafruco.jpg",
+            price: 3.50,
+            category: "dips"
+    
+        },
+        {
+            id: 52,
+            name: 'Salsa Rosada Doypack',
+            image: "/images/salsarosadadoypack.jpg",
+            price: 5.88,
+            category: "dips"
+    
+        },
+        {
+            id: 53,
+            name: 'Salsa Soya Fruco',
+            image: "/images/salsasoyafruco.jpg",
+            price: 2.56,
+            category: "dips"
+    
+        },
+        {
+            id: 54,
+            name: 'Salsa Negra Fruco',
+            image: "/images/salsanegrafruco.png",
+            price: 2.58,
+            category: "dips"
+    
+        },
+        {
+            id: 55,
+            name: 'Mermelada de mora La Constancia',
+            image: "/images/mermeladamora.jpeg",
+            price: 4.90,
+            category: "dips"
+    
+        },
+        {
+            id: 56,
+            name: 'Mermelada de piña La Constancia',
+            image: "/images/mermeladapiña.jpeg",
+            price: 4.50,
+            category: "dips"
+    
+        },
+        {
+            id: 57,
+            name: 'Salsa de piña La Constancia',
+            image: "/images/salsapiña.jpg",
+            price: 5.10,
+            category: "dips"
+    
+        },
+        {
+            id: 58,
+            name: 'Salsa de Ciruela La Constancia',
+            image: "/images/salsaciruela.jpg",
+            price: 2.56,
+            category: "dips"
+    
+        },
+    ],
+
+    aseo: [
+        {
+            id: 59,
+            name: 'Jabon Axion',
+            image: "/images/jabonaxion.jpeg",
+            price: 3.06,
+            category: "aseo"
+    
+        },
+        {
+            id: 60,
+            name: 'Jabon Cocco x 3 unidades',
+            image: "/images/jaboncoco.jpg",
+            price: 7.39,
+            category: "aseo"
+    
+        },
+        {
+            id: 61,
+            name: 'Jabon Rey',
+            image: "/images/jabonrey.jpg",
+            price: 1.47,
+            category: "aseo"
+    
+        },
+
     ],
   };
