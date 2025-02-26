@@ -131,7 +131,7 @@ export const products = {
     {
         id: 22,
         name: 'papas margarita pollo x 12 unidades',
-        image: "/images/papasmargaritapollo.jpg",
+        image: "/images/papasmargarita.jpg",
         price: 9.37,
         category: "snacks"
 
