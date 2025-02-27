@@ -10,6 +10,8 @@ import { CartProvider } from './context/CartContext';
 import Dips from './pages/Dips';
 import Aseo from './pages/Aseo';
 import Footer from './components/Footer';
+import Testimonials from './components/Testimonials';
+import Benefits from './components/Benefits';
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
               <Route path="/aseo" element={<Aseo />} />
             </Routes>
           </main>
+          <Benefits/>
+          <Testimonials/>
           <Footer/>
         </div>
       </Router>
