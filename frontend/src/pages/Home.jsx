@@ -23,7 +23,7 @@ function Home() {
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
             <img
-              src="../public/images/fondo.jpg"
+              src="/images/fondo.jpg"
               alt="Mi tierra"
               className="rounded-xl shadow-lg w-80 h-80"
             />
@@ -38,24 +38,24 @@ function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {[
               {
-                name: "Cocosette",
-                price: "$0.75",
-                img: "../public/images/cocosette.jpg",
+                name: "Cafe Aguila Roja",
+                price: "$7.61",
+                img: "/images/cafeaguilaroja.jpg",
               },
               {
-                name: "Chocolatina Jumbo mini caja",
-                price: "$9.27",
-                img: "../public/images/chocolatinajumbomini.jpg",
+                name: "Postobon Colombiana",
+                price: "$1.89",
+                img: "/images/postoboncolombianabotella12ozcajax24.jpg",
               },
               {
-                name: "Galletas Festiva",
-                price: "$14.99",
-                img: "../public/images/galletafestival.jpg",
+                name: "Arequipe Alpina",
+                price: "$3.24",
+                img: "/images/arequipealpina250.jpg",
               },
               {
-                name: "Ponymalta lata",
-                price: "$3.75",
-                img: "../public/images/ponymaltalata.jpg",
+                name: "Milo bolsa",
+                price: "$7.6",
+                img: "/images/milobolsa.jpg",
               },
             ].map((dish, index) => (
               <div
