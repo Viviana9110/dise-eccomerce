@@ -1,6 +1,6 @@
 import React from 'react';
-import { Benefits } from '../components/Benefits';
-import { Testimonials } from '../components/Testimonials';
+import { Benefits } from '../components/Benefits.jsx';
+import { Testimonials } from '../components/Testimonials.jsx';
 
 
 function Home() {
