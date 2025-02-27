@@ -1,11 +1,7 @@
 import React from 'react';
+import { Benefits } from '../components/Benefits';
+import { Testimonials } from '../components/Testimonials';
 
-
-const images = [
-  '/images/uno.jpg',
-  '/images/dos.jpg',
-  '/images/3.jpg',
-];
 
 function Home() {
   return (
@@ -78,7 +74,8 @@ function Home() {
           ))}
         </div>
       </section>
-    
+      <Benefits/>
+          <Testimonials/>
     
     </div>
   );
