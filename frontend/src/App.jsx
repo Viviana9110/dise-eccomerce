@@ -9,6 +9,7 @@ import Preserves from './pages/Preserves';
 import { CartProvider } from './context/CartContext';
 import Dips from './pages/Dips';
 import Aseo from './pages/Aseo';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               <Route path="/aseo" element={<Aseo />} />
             </Routes>
           </main>
+          <Footer/>
         </div>
       </Router>
     </CartProvider>
