@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useCart } from '../context/CartContext';
 import { FaTrash, FaMinus, FaPlus } from 'react-icons/fa';
 import { sendOrder } from '../services/emailService';
+import { toast } from 'react-toastify';
 
 function Cart({ onClose }) {
   const { cartItems, removeFromCart, updateQuantity, getCartTotal, clearCart } = useCart();
@@ -46,7 +47,14 @@ function Cart({ onClose }) {
       const response = await sendOrder(orderData);
       
       if (response.success) {
-        alert('¡Orden enviada exitosamente!');
+        toast.success('¡Orden enviada exitosamente!', {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true
+        });
         clearCart();
         onClose();
       } else {
@@ -55,6 +63,14 @@ function Cart({ onClose }) {
     } catch (error) {
       console.error('Error en el envío:', error);
       setError(error.message || 'Error al enviar la orden. Por favor intenta nuevamente.');
+      toast.error(error.message || 'Error al enviar la orden. Por favor intenta nuevamente.', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true
+      });
     } finally {
       setIsLoading(false);
     }

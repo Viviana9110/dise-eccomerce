@@ -10,6 +10,8 @@ import { CartProvider } from './context/CartContext';
 import Dips from './pages/Dips';
 import Aseo from './pages/Aseo';
 import Footer from './components/Footer';
+import { ToastContainer } from 'react-toastify';
+
 
 function App() {
   return (
@@ -28,7 +30,7 @@ function App() {
               <Route path="/aseo" element={<Aseo />} />
             </Routes>
           </main>
-          
+          <ToastContainer/>
           <Footer/>
         </div>
       </Router>
