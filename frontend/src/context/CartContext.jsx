@@ -1,9 +1,30 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';
 
 const CartContext = createContext();
 
+// Clave para almacenar el carrito en localStorage
+const CART_STORAGE_KEY = 'shopping-cart';
+
 export function CartProvider({ children }) {
-  const [cartItems, setCartItems] = useState([]);
+   // Inicializar el estado del carrito desde localStorage si existe
+   const [cartItems, setCartItems] = useState(() => {
+    try {
+      const savedCart = localStorage.getItem(CART_STORAGE_KEY);
+      return savedCart ? JSON.parse(savedCart) : [];
+    } catch (error) {
+      console.error('Error al cargar el carrito desde localStorage:', error);
+      return [];
+    }
+  });
+
+  // Guardar el carrito en localStorage cada vez que cambie
+  useEffect(() => {
+    try {
+      localStorage.setItem(CART_STORAGE_KEY, JSON.stringify(cartItems));
+    } catch (error) {
+      console.error('Error al guardar el carrito en localStorage:', error);
+    }
+  }, [cartItems]);
 
   const addToCart = (product) => {
     setCartItems(prevItems => {
