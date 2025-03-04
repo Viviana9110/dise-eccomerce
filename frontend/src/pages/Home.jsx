@@ -62,7 +62,7 @@ function Home() {
               {
                 name: "Milo bolsa",
                 price: "$7.6",
-                img: "./public/images/milobolsa.jpg",
+                img: "./images/milobolsa.jpg",
               },
             ].map((dish, index) => (
               <div
