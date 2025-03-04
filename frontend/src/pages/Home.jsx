@@ -26,7 +26,7 @@ function Home() {
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
             <img
-              src="/images/fondo.jpg"
+              src="./images/fondo.jpg"
               alt="Mi tierra"
               className="rounded-xl shadow-lg w-80 h-80 transition-transform duration-300 ease-in-out hover:scale-105"
             />
@@ -47,22 +47,22 @@ function Home() {
               {
                 name: "Cafe Aguila Roja",
                 price: "$7.61",
-                img: "/images/cafeaguilaroja.jpg",
+                img: "./images/cafeaguilaroja.jpg",
               },
               {
                 name: "Postobon Colombiana",
                 price: "$1.89",
-                img: "/images/postoboncolombianabotella12ozcajax24.jpg",
+                img: "./images/postoboncolombianabotella12ozcajax24.jpg",
               },
               {
                 name: "Arequipe Alpina",
                 price: "$3.24",
-                img: "/images/arequipealpina250.jpg",
+                img: "./images/arequipealpina250.jpg",
               },
               {
                 name: "Milo bolsa",
                 price: "$7.6",
-                img: "/public/images/milobolsa.jpg",
+                img: "./public/images/milobolsa.jpg",
               },
             ].map((dish, index) => (
               <div
