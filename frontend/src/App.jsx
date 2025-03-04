@@ -11,6 +11,7 @@ import Dips from './pages/Dips';
 import Aseo from './pages/Aseo';
 import Footer from './components/Footer';
 import { ToastContainer } from 'react-toastify';
+import AboutSection from './pages/AboutSection';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
               <Route path="/preserves" element={<Preserves />} />
               <Route path="/dips" element={<Dips />} />
               <Route path="/aseo" element={<Aseo />} />
+              <Route path="/about" element={<AboutSection/>}/>
             </Routes>
           </main>
           <ToastContainer/>

@@ -1,11 +1,14 @@
 import React from "react";
 import Benefits from "../components/Benefits";
 import Testimonials from "../components/Testimonials";
+import OfferSlider from "../components/OfferSlider";
+import FeaturedCategories from "../components/FeaturedCategories";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <>
-      <div className="font-sans bg-gray-50 min-h-screen">
+      <div className="font-sans bg-gray-50">
         {/* Header */}
         <header className="flex flex-col md:flex-row items-center justify-between p-8 bg-white">
           <div className="md:w-1/2 space-y-4">
@@ -17,19 +20,23 @@ function Home() {
               Colombia. Sabores auténticos que te transportarán a nuestra
               tierra.
             </p>
-            <button className="bg-cyan-900 text-white px-6 py-3 rounded-lg text-lg">
-              Ver mas
+            <button className="bg-cyan-900 text-white px-6 py-3 rounded-lg text-lg transition-all duration-300 ease-in-out hover:bg-cyan-700 hover:shadow-lg">
+              <Link to="/about">Ver Mas</Link>
             </button>
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
             <img
-              src="/images/fondo.jpg"
+              src="../public/images/fondo.jpg"
               alt="Mi tierra"
-              className="rounded-xl shadow-lg w-80 h-80"
+              className="rounded-xl shadow-lg w-80 h-80 transition-transform duration-300 ease-in-out hover:scale-105"
             />
           </div>
         </header>
 
+      </div>
+      <OfferSlider/>
+      <Testimonials />
+      
         {/* Popular Dishes */}
         <section className="p-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-6">
@@ -40,22 +47,22 @@ function Home() {
               {
                 name: "Cafe Aguila Roja",
                 price: "$7.61",
-                img: "/images/cafeaguilaroja.jpg",
+                img: "../public/images/cafeaguilaroja.jpg",
               },
               {
                 name: "Postobon Colombiana",
                 price: "$1.89",
-                img: "/images/postoboncolombianabotella12ozcajax24.jpg",
+                img: "../public/images/postoboncolombianabotella12ozcajax24.jpg",
               },
               {
                 name: "Arequipe Alpina",
                 price: "$3.24",
-                img: "/images/arequipealpina250.jpg",
+                img: "../public/images/arequipealpina250.jpg",
               },
               {
                 name: "Milo bolsa",
                 price: "$7.6",
-                img: "/images/milobolsa.jpg",
+                img: "../public/images/milobolsa.jpg",
               },
             ].map((dish, index) => (
               <div
@@ -75,9 +82,9 @@ function Home() {
             ))}
           </div>
         </section>
-      </div>
+      <FeaturedCategories/>
       <Benefits />
-      <Testimonials />
+      
     </>
   );
 }
